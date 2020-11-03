@@ -1,12 +1,13 @@
 using UnityEngine;
 
-namespace BlowhardJamboree.Moonshot
+namespace BlowhardJamboree.Moonshot.Course
 {
 
     public interface ICelestialBody
     {
 
-        Vector3 Position();
+        GameObject Body();
+
 
     }
 

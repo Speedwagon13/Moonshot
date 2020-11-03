@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace BlowhardJamboree.Moonshot
+namespace BlowhardJamboree.Moonshot.Course
 {
 
     public class PlanetBehavior : MonoBehaviour, ICelestialBody
@@ -21,10 +21,14 @@ namespace BlowhardJamboree.Moonshot
         [SerializeField]
         private float secondsPerOrbit;
 
+        [SerializeField]
+        private Vector3 orbitCenter;
+
         // Update is called once per frame
         void Update()
         {
-            transform.position = Elipse(xElipseRadius, yElipseRadius, Vector3.zero, elipseAngle, Time.time / secondsPerOrbit);
+            transform.position = Elipse(xElipseRadius, yElipseRadius, orbitCenter, elipseAngle, Time.time / secondsPerOrbit);
+            transform.LookAt(orbitCenter);
         }
 
         public float XElipseRadius()
@@ -54,9 +58,9 @@ namespace BlowhardJamboree.Moonshot
             return pos;
         }
 
-        public Vector3 Position()
+        public GameObject Body()
         {
-            return transform.position;
+            return gameObject;
         }
     }
 

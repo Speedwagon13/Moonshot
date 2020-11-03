@@ -1,9 +1,10 @@
 using UnityEngine;
 using System.Collections;
 
-namespace BlowhardJamboree.Moonshot
+namespace BlowhardJamboree.Moonshot.Course
 {
 
+    [System.Serializable]
     public class CourseInspectorBehavior : MonoBehaviour, ICourseInspector
     {
 

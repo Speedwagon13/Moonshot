@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using BlowhardJamboree.Moonshot.Course;
 
 namespace BlowhardJamboree.Moonshot
 {

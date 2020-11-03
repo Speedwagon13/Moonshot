@@ -1,7 +1,6 @@
-using UnityEngine;
 using System.Collections;
 
-namespace BlowhardJamboree.Moonshot
+namespace BlowhardJamboree.Moonshot.Course
 {
 
     public interface ICourseInspector
