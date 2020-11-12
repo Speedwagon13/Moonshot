@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f6f2f26dbf690324183e5031a071c55e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mercy
+  fontNames:
+  - Mercy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 12f51e5e3493c8449993f7747b965c7e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
